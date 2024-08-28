@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="uk">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Practice: feedback form</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
+    />
+    <link rel="stylesheet" href="./css/2-form.css" />
+  </head>
+  <body>
+    <a href="./index.html">
+      <p>go back</p>
+    </a>
+    <div class="container">
+      <form class="feedback-form js-feedback-form" autocomplete="off">
+        <label>
+          Email
+          <input
+            type="email"
+            name="email"
+            class="feedback-form-input"
+            autofocus
+          />
+        </label>
+        <label>
+          Message
+          <textarea
+            name="message"
+            class="feedback-form-message"
+            rows="8"
+          ></textarea>
+        </label>
+        <button class="feedback-form-submit" type="submit">Submit</button>
+      </form>
+    </div>
+
+    <script src="./js/2-form.js"></script>
+  </body>
+</html>
