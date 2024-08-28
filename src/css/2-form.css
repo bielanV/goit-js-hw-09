@@ -1,51 +1,66 @@
 .feedback-form {
     display: flex;
     flex-direction: column;
-    width: 600px;
+    width: 408px;
+    height: 296px;
     padding: 40px;
     margin: 0 auto;
-    box-shadow: 0 10px 10px 0 #cccccc;
+    box-shadow: 0 10px 10px #ccc
 }
 
 .feedback-form-input {
+    font-family: Montserrat,sans-serif;
+    width: 360px;
     height: 40px;
-    padding-left: 15px;
+    padding-left: 12px;
+    padding-right: 12px;
     border: 1px solid #303030;
     margin-bottom: 20px;
+    border-radius: 4px
 }
 
 .feedback-form-message {
-    height: 120px;
-    padding: 15px;
+    font-family: Montserrat,sans-serif;
+    width: 360px;
+    height: 80px;
+    padding-top: 8px;
+    padding-left: 12px;
+    padding-right: 12px;
     border: 1px solid #303030;
     margin-bottom: 20px;
     resize: none;
+    border-radius: 4px
 }
 
 .feedback-form-submit {
-    padding: 10px 20px;
-    background-color: transparent;
-    border: 1px solid #303030;
-    border-radius: 4px;
+    font-family: Montserrat,sans-serif;
+    border-radius: 8px;
+    padding: 8px 16px;
+    width: 95px;
+    height: 40px;
+    background-color: #4e75ff;
+    border: 1px solid transparent;
     cursor: pointer;
-    align-self: center;
-    transition: transform 250ms linear;
+    transition: transform .25s linear;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: .04em;
+    color: #fff
 }
 
-.feedback-form-submit:hover,
-.feedback-form-submit:focus {
-    transform: scale(1.05);
+.modal-input-label {
+    font-family: Montserrat,sans-serif;
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: .04em;
+    color: #2e2f42
 }
 
-.container {
-    width: 1200px;
-    padding-left: 15px;
-    padding-right: 15px;
-    margin-left: auto;
-    margin-right: auto;
-}
-
-body {
-    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Helvetica, Arial, sans-serif, 'Apple Color Emoji',
-        'Segoe UI Emoji';
+.feedback-form-submit:hover,.feedback-form-submit:focus {
+    background-color: #6c8cff
 }
