@@ -9,4 +9,4 @@ import{S as n}from"./assets/vendor-CgTBfC_f.js";(function(){const o=document.cre
             </a>
         </li>
     `,l=c.map(s).join(""),d=document.querySelector(".gallery");d.innerHTML=l;new n(".gallery a",{captions:!0,captionsData:"alt",captionPosition:"bottom",captionDelay:250});
-//# sourceMappingURL=1-gallary.js.map
+//# sourceMappingURL=1-gallery.js.map
